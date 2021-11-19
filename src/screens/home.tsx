@@ -1,11 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
-
 import React from 'react';
 import {Navigation} from 'react-native-navigation';
 
@@ -24,7 +16,7 @@ export const ButtonComponent = () => {
   return <Text>aaa</Text>;
 };
 
-const App = (props: any) => {
+const Home = (props: any) => {
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <SafeAreaView>
@@ -32,7 +24,7 @@ const App = (props: any) => {
       <ScrollView contentInsetAdjustmentBehavior="automatic">
         <View style={styles.root}>
           <Text>Hello React Native Navigation 👋</Text>
-          <Button
+          {/* <Button
             title="Push Settings Screen"
             color="#710ce3"
             onPress={() =>
@@ -60,14 +52,14 @@ const App = (props: any) => {
                 },
               })
             }
-          />
+          /> */}
         </View>
       </ScrollView>
     </SafeAreaView>
   );
 };
 
-App.options = {
+Home.options = {
   topBar: {
     title: {
       text: 'Home',
@@ -104,4 +96,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Home;

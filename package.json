@@ -10,6 +10,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "lodash": "^4.17.21",
     "react": "17.0.2",
     "react-native": "0.66.3",
     "react-native-navigation": "^7.23.1"
@@ -19,6 +20,7 @@
     "@babel/runtime": "^7.12.5",
     "@react-native-community/eslint-config": "^2.0.0",
     "@types/jest": "^27.0.2",
+    "@types/lodash": "^4.14.177",
     "@types/react": "^17.0.35",
     "@types/react-native": "^0.66.4",
     "@types/react-test-renderer": "^17.0.1",
